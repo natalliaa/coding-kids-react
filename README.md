@@ -9,7 +9,7 @@ Components:
 - Categories
 - Review
 
-**Technology: React.js | React Hooks| React Router | HTML5 | CSS3 | CSS Grid**
+**Technology: React.js | React Hooks | React Router | HTML5 | CSS3 | CSS Grid**
 
 ### View Live
 <https://natalliaa.github.io/coding-kids-react/>
