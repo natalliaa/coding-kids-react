@@ -9,7 +9,7 @@ const AppProvider = ({ children }) => {
   const [books, setBooks] = useState(data);
 
   //unique categories from books data and option 'all'
-  const allCategories = ['all', ...new Set(books.map((book) => book.category))];
+  const allCategories = ['all books', ...new Set(books.map((book) => book.category))];
   //categories state
   const [categories, setCategories] = useState(allCategories);
 

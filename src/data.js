@@ -13,25 +13,10 @@ const books = [
         age: "9 - 12",
         isbn13: "978-0763692766",
         amazon: "https://www.amazon.com/Get-Coding-Learn-JavaScript-Website/dp/076369276X/ref=sr_1_12?crid=3CDAMWHJO4IUH&dchild=1&keywords=kids+coding+book&qid=1614706446&sprefix=kids+coding+b%2Caps%2C197&sr=8-12"
-    },
+    }, 
 
     {
         id: "2",
-        category: "games",
-        title: "Get Coding 2!",
-        author: " David Whitney",
-        image: "https://images-na.ssl-images-amazon.com/images/I/51xkIEY4qcL._SX451_BO1,204,203,200_.jpg",
-        description: "Learn HTML and JavaScript. Design and build five interactive computer games. Create cool graphics. Code simple artificial intelligence. This appealing guide, covering essential coding concepts, offers an ideal introduction to all these activities and more. By following simple step-by-step instructions and completing five exciting missions, aspiring programmers are invited to code well-known games such as tic-tac-toe and table tennis, then customize their projects to test their skills.",
-        date: "2019",
-        publisher: "Candlewick; Illustrated edition",
-        pages: 224,
-        age: "9-12",
-        isbn13: "978-1536205411",
-        amazon: "https://www.amazon.com/Coding-Build-Computer-Games-JavaScript/dp/1536205419/ref=sr_1_19?crid=R6MP9M80867&dchild=1&keywords=coding+kids&qid=1614727094&refinements=p_n_feature_browse-bin%3A2656022011&rnid=618072011&s=books&sprefix=coding%2Caps%2C237&sr=1-19"
-    },
-
-    {
-        id: "3",
         category: "programming",
         title: "Kids Get Coding",
         author: "Heather Lyons,  Elizabeth Tweedale",
@@ -46,7 +31,7 @@ const books = [
     },
 
     {
-        id: "4",
+        id: "3",
         category: "websites",
         title: "Code Your Own Website",
         author: " The Coder School",
@@ -58,6 +43,20 @@ const books = [
         age: "7-11",
         isbn13: "978-0753475126",
         amazon: "https://www.amazon.com/Coding-Basher-Code-Your-Website/dp/075347512X/ref=sr_1_2?dchild=1&keywords=website+kids&qid=1614727132&s=books&sr=1-2"
+    },
+    {
+        id: "4",
+        category: "games",
+        title: "Get Coding 2!",
+        author: " David Whitney",
+        image: "https://images-na.ssl-images-amazon.com/images/I/51xkIEY4qcL._SX451_BO1,204,203,200_.jpg",
+        description: "Learn HTML and JavaScript. Design and build five interactive computer games. Create cool graphics. Code simple artificial intelligence. This appealing guide, covering essential coding concepts, offers an ideal introduction to all these activities and more. By following simple step-by-step instructions and completing five exciting missions, aspiring programmers are invited to code well-known games such as tic-tac-toe and table tennis, then customize their projects to test their skills.",
+        date: "2019",
+        publisher: "Candlewick; Illustrated edition",
+        pages: 224,
+        age: "9-12",
+        isbn13: "978-1536205411",
+        amazon: "https://www.amazon.com/Coding-Build-Computer-Games-JavaScript/dp/1536205419/ref=sr_1_19?crid=R6MP9M80867&dchild=1&keywords=coding+kids&qid=1614727094&refinements=p_n_feature_browse-bin%3A2656022011&rnid=618072011&s=books&sprefix=coding%2Caps%2C237&sr=1-19"
     },
     {
         id: "5",
