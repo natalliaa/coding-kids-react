@@ -83,8 +83,7 @@ Navbar
 }
 
 .title {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding: 3rem 1rem;  
   color: var(--purple);
   font-size: 2.3rem;
 }
@@ -109,7 +108,7 @@ button:focus {
 }
 
 a.btn {
-  padding-top: 0;
+  padding-top: 0.1rem;
 }
 
 .btn:hover {
@@ -117,24 +116,24 @@ a.btn {
   color: var(--white);
 }
 
-.btn-categories {
-  margin-right: 0.7rem;
+.btn-categories { 
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
   margin-bottom: 0.5rem;
   background-color: var(--white);
-}
-
-.btn-categories:last-child {
-  margin-right: 0;
 }
 
 /* ===================
 About Page
 =================== */
+.section-container{
+  width: 90vw;
+}
 
 .card-about {
   padding: 2rem 2rem 3rem 2rem;
   background-color: var(--white);
-  box-shadow: var(--boxShadow);
+  box-shadow: var(--boxShadow);  
 }
 
 .card-about h2 {
@@ -250,10 +249,23 @@ Book Container
   box-shadow: var(--boxShadow);
 }
 
+.books-grid {
+  width: 90vw;
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  justify-items: center;
+  margin: 0 auto;
+}
 .book img {
   object-fit: cover;
-  height: 16rem;
+  height: 19rem;
 }
+
+/* .book img {
+  object-fit: cover;
+  height: 18rem;
+} */
 
 .book-footer {
   padding: 1rem;
@@ -339,12 +351,48 @@ Screen Sizes
 
 /* Extra small devices (phones) */
 
-@media screen and (max-width: 559px) {
+@media screen and (max-width: 435px){
   html {
     font-size: 13px;
   }
   .book-img-container img {
     padding: 0 3rem;
+  }
+  .books-grid {
+    width: 70vw;  
+    justify-items: center;
+    margin: 0 auto;   
+  }
+  .book img {
+    object-fit: cover;
+    height: 20rem;
+  }
+  .section-container{
+    width: 90vw;
+  }
+}
+
+@media screen and (min-width: 436px) and (max-width: 559px) {
+  html {
+    font-size: 13px;
+  }
+  .book-img-container img {
+    padding: 0 3rem;
+  }
+  .books-grid {
+    width: 90vw;
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    justify-items: center;
+    margin: 0 auto;  
+  }
+  .book img {
+    object-fit: cover;
+    height: 16rem;
+  }
+  .section-container{
+    width: 90vw;
   }
 }
 
@@ -358,13 +406,13 @@ Screen Sizes
     width: 80vw;
     display: grid;
     grid-gap: 2rem;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
     justify-items: center;
-    margin: 0 auto;
+    margin: 0 auto;   
   }
   .book img {
     object-fit: cover;
-    height: 18rem;
+    height: 19rem;
   }
   .card-grid {
     display: grid;
@@ -377,6 +425,9 @@ Screen Sizes
   }
   .book-img-container img {
     padding: 0;
+  }
+  .section-container{
+    width: 80vw;
   }
 }
 
@@ -399,7 +450,7 @@ Screen Sizes
     height: 16rem;
   }
   .section-container {
-    width: 80vw;
+    width: 80vw;    
   }
   .card-grid {
     display: grid;
