@@ -5,7 +5,7 @@ const Book = ({ id, title, image, author, age }) => {
     return (
         <article className="book">
             <div className="img-container">
-                <a href={`/book/${id}`}><img src={image} alt={title} /></a>
+                <a href={`/coding-kids-react/book/${id}`}><img src={image} alt={title} /></a>
             </div>
             <div className="book-footer">
                 <h2>{title}</h2>
