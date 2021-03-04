@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/coding-kids-react/static/css/main.a07a0593.chunk.css",
-    "main.js": "/coding-kids-react/static/js/main.7b48cb59.chunk.js",
-    "main.js.map": "/coding-kids-react/static/js/main.7b48cb59.chunk.js.map",
+    "main.js": "/coding-kids-react/static/js/main.191cf609.chunk.js",
+    "main.js.map": "/coding-kids-react/static/js/main.191cf609.chunk.js.map",
     "runtime-main.js": "/coding-kids-react/static/js/runtime-main.696cba06.js",
     "runtime-main.js.map": "/coding-kids-react/static/js/runtime-main.696cba06.js.map",
     "static/js/2.6004a2af.chunk.js": "/coding-kids-react/static/js/2.6004a2af.chunk.js",
@@ -22,6 +22,6 @@
     "static/js/runtime-main.696cba06.js",
     "static/js/2.6004a2af.chunk.js",
     "static/css/main.a07a0593.chunk.css",
-    "static/js/main.7b48cb59.chunk.js"
+    "static/js/main.191cf609.chunk.js"
   ]
 }
