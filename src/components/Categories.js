@@ -8,7 +8,7 @@ const Categories = () => {
 
     //filter books by tags
     const filterBooks = (category) => {
-        if (category === 'all') {
+        if (category === 'all books') {
             setBooks(data);
             return;
         }
