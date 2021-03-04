@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/coding-kids-react/static/css/main.d0d29733.chunk.css",
+    "main.js": "/coding-kids-react/static/js/main.854e2fce.chunk.js",
+    "main.js.map": "/coding-kids-react/static/js/main.854e2fce.chunk.js.map",
+    "runtime-main.js": "/coding-kids-react/static/js/runtime-main.696cba06.js",
+    "runtime-main.js.map": "/coding-kids-react/static/js/runtime-main.696cba06.js.map",
+    "static/js/2.6004a2af.chunk.js": "/coding-kids-react/static/js/2.6004a2af.chunk.js",
+    "static/js/2.6004a2af.chunk.js.map": "/coding-kids-react/static/js/2.6004a2af.chunk.js.map",
+    "static/js/3.6f8e7b96.chunk.js": "/coding-kids-react/static/js/3.6f8e7b96.chunk.js",
+    "static/js/3.6f8e7b96.chunk.js.map": "/coding-kids-react/static/js/3.6f8e7b96.chunk.js.map",
+    "index.html": "/coding-kids-react/index.html",
+    "static/css/main.d0d29733.chunk.css.map": "/coding-kids-react/static/css/main.d0d29733.chunk.css.map",
+    "static/js/2.6004a2af.chunk.js.LICENSE.txt": "/coding-kids-react/static/js/2.6004a2af.chunk.js.LICENSE.txt",
+    "static/media/avatar1.4ea69811.png": "/coding-kids-react/static/media/avatar1.4ea69811.png",
+    "static/media/avatar2.1d6f412e.png": "/coding-kids-react/static/media/avatar2.1d6f412e.png",
+    "static/media/avatar3.ac4c0df8.png": "/coding-kids-react/static/media/avatar3.ac4c0df8.png",
+    "static/media/avatar4.d517fc2a.png": "/coding-kids-react/static/media/avatar4.d517fc2a.png",
+    "static/media/avatar5.6896b64a.png": "/coding-kids-react/static/media/avatar5.6896b64a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.696cba06.js",
+    "static/js/2.6004a2af.chunk.js",
+    "static/css/main.d0d29733.chunk.css",
+    "static/js/main.854e2fce.chunk.js"
+  ]
+}
