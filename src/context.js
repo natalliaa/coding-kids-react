@@ -15,7 +15,7 @@ const AppProvider = ({ children }) => {
 
   useEffect(() => {
     setBooks(data);
-  }, [categories]);
+  },[]);
 
   return <AppContext.Provider
     value={{
