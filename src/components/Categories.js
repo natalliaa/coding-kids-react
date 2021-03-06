@@ -1,10 +1,15 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useGlobalContext } from '../context';
 import data from '../data';
 
 const Categories = () => {
 
-    const { categories, setBooks } = useGlobalContext();
+    const { setBooks } = useGlobalContext();
+
+    //unique categories from books data and option 'all'
+    const allCategories = ['all books', ...new Set(data.map((book) => book.category))];
+    //categories state
+    const [categories, setCategories] = useState(allCategories);
 
     //filter books by tags
     const filterBooks = (category) => {
