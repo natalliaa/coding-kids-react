@@ -1,4 +1,4 @@
-import React, { useState, useContext, useEffect } from 'react'
+import React, { useState, useContext} from 'react'
 import data from './data';
 
 const AppContext = React.createContext();
@@ -6,11 +6,7 @@ const AppContext = React.createContext();
 const AppProvider = ({ children }) => {
 
   //books state
-  const [books, setBooks] = useState(data);
-
-  useEffect(() => {
-    setBooks(data);
-  }, []);
+  const [books, setBooks] = useState(data);   
 
   return <AppContext.Provider
     value={{
