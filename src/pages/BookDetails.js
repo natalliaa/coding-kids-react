@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Link, useParams } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 import { useGlobalContext } from '../context';
 import Error from '../pages/Error';
 
@@ -14,7 +14,7 @@ const BookDetails = () => {
     useEffect(() => {
         const currentBook = books.find((book) => book.id === id);
         setBook(currentBook);
-    }, [id]);
+    }, [id, books]);
 
     //the book is not found
     if (!book) {

@@ -1,7 +1,5 @@
-import React, { useState, useEffect } from 'react';
 import BookList from '../components/BookList';
 import Categories from '../components/Categories';
-import { useGlobalContext } from '../context';
 
 const Books = () => {
 

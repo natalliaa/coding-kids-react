@@ -4,7 +4,7 @@ import data from '../data';
 
 const Categories = () => {
 
-    const { categories, books, setBooks } = useGlobalContext();
+    const { categories, setBooks } = useGlobalContext();
 
     //filter books by tags
     const filterBooks = (category) => {

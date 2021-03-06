@@ -13,11 +13,9 @@ const AppProvider = ({ children }) => {
   //categories state
   const [categories, setCategories] = useState(allCategories);
 
-
-
   useEffect(() => {
     setBooks(data);
-  }, [categories])
+  }, [categories]);
 
   return <AppContext.Provider
     value={{

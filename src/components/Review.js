@@ -1,13 +1,12 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
-import { FaChevronLeft, FaChevronRight, FaPeopleCarry, FaQuoteRight } from 'react-icons/fa';
+import { FaChevronLeft, FaChevronRight, FaQuoteRight } from 'react-icons/fa';
 import reviews from '../reviews';
 
 const Review = () => {
 
     //index state to pull a review from the array
     const [index, setIndex] = useState(0);
-    const { id, name, image, text } = reviews[index];
+    const { name, image, text } = reviews[index];
 
     //reset index to 0 or last one if outside of reviews array length
     const checkIndex = (index) => {
@@ -60,5 +59,4 @@ const Review = () => {
         </div>
     )
 };
-
 export default Review;
