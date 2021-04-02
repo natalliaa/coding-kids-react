@@ -1,10 +1,15 @@
 import React from 'react';
 import Book from './Book';
 import { useGlobalContext } from '../context';
+import data from '../data';
 
 const BookList = () => {
 
-    const { books } = useGlobalContext();
+    const { books, setBooks } = useGlobalContext();
+
+    React.useEffect(()=>{
+        setBooks(data);
+    }, [])
 
     return (
         <section className="section">
